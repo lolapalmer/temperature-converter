@@ -1,9 +1,9 @@
 
 
 exports.cToF = function (c) {
-    return (c*9/5)+32
+    return parseFloat((c*9/5)+32)
 }
 
 exports.fToC = function (f) {
-    return (f-32)*5/9
+    return parseFloat((f-32)*5/9)
 }
